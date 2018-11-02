@@ -25,12 +25,12 @@ class RomanNumerals
         bucket << value
         number = number - key
       end
+    end
+    p "do i return this? #{bucket.join}"
+    return bucket.join
   end
-      p "do i return this? #{bucket.join}"
-      return bucket.join
 end
-end
-    #if my number is >= to the key then continu to verify the element of the array until the number match
-    #then return it as a string
-  #  number == @@arabic_to_roman[number]
-    #  @@arabic_to_roman.has_key?(number)
+#if my number is >= to the key then continu to verify the element of the array until the number match
+#then return it as a string
+#  number == @@arabic_to_roman[number]
+#  @@arabic_to_roman.has_key?(number)
